@@ -21,7 +21,7 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-       stage('Checking Staff') {
+       stage('Branched Complete') {
             steps {
                 echo 'new Commit To check Automated Jenkins update'
             }
